@@ -1,5 +1,9 @@
 var isPalindrome = function(stringInput) {
-  return stringInput.split("").reverse().join("") === stringInput;
+  if (stringInput.split("").reverse().join("") === stringInput) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 var isPalindromeRecursive = function(stringInput) {
@@ -16,6 +20,15 @@ var isPalindromeRecursive = function(stringInput) {
   }
 }
 
-// $(document).ready(function() {
-//
-// });
+$(document).ready(function() {
+  $("form#getString").submit(function(event) {
+    input = $("input#stringInput").val();
+
+    var palindrome = isPalindrome(input);
+
+    $(".output").text(palindrome);
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});
