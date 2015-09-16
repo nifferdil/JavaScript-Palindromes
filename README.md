@@ -1,12 +1,12 @@
-# Application Name
+# Palindromes
 
-##### _{Brief description of application}, {Date of current version}_
+##### _JavaScript BDD practice for Epicodus, 16 September 2015_
 
-#### By **Molly Waggett**
+#### By **Molly Waggett & Jennifer Morkunas**
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}
+This app will detect if user input is a palindrome, meaning any word, phrase, number, or other sequence of characters which reads the same backward or forward.
 
 ## Setup
 
@@ -21,7 +21,7 @@
 
 ### Legal
 
-Copyright (c) 2015 **Molly Waggett**
+Copyright (c) 2015 **Molly Waggett & Jennifer Morkunas**
 
 This software is licensed under the MIT license.
 
