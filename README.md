@@ -11,6 +11,8 @@ This app will detect if user input is a palindrome, meaning any word, phrase, nu
 ## Setup
 
 * Clone this repository.
+* Open the index.html file in your browser.
+* Enter a word or number in the form.
 
 ## Technologies Used
 
